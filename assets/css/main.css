@@ -689,6 +689,24 @@ section,
   min-height: 75vh;
   padding-top: 60px;
   width: 100%;
+  overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+  .hero .carousel-container {
+    min-height: 60vh;
+    padding-top: 40px;
+  }
+  
+  .hero h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .hero p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
 }
 
 .hero .carousel-item {
