@@ -688,6 +688,15 @@ section,
   position: relative;
   min-height: 75vh;
   padding-top: 60px;
+  width: 100%;
+}
+
+.hero .carousel-item {
+  width: 100%;
+}
+
+.hero .carousel-item.active {
+  display: flex;
 }
 
 .hero h2 {
