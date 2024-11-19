@@ -31,6 +31,13 @@
     document.querySelector('body').classList.toggle('mobile-nav-active');
     mobileNavToggleBtn.classList.toggle('bi-list');
     mobileNavToggleBtn.classList.toggle('bi-x');
+    
+    // Close any open dropdowns when closing mobile nav
+    if (!document.querySelector('body').classList.contains('mobile-nav-active')) {
+      document.querySelectorAll('.navmenu .dropdown-active').forEach(dropdown => {
+        dropdown.classList.remove('dropdown-active');
+      });
+    }
   }
   mobileNavToggleBtn.addEventListener('click', mobileNavToogle);
 

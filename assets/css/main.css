@@ -799,6 +799,35 @@ section,
     padding: 10px 24px;
     font-size: 13px;
   }
+
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .portfolio-item {
+    width: 100% !important;
+    padding: 5px !important;
+  }
+
+  h1 { font-size: 28px !important; }
+  h2 { font-size: 24px !important; }
+  p { font-size: 16px !important; }
+}
+
+@media (max-width: 480px) {
+  .header {
+    padding: 10px 0;
+  }
+
+  .navmenu ul {
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .navmenu a {
+    padding: 8px 15px;
+  }
 }
 
 .hero .hero-waves {
