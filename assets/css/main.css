@@ -565,6 +565,42 @@ h6 {
   }
 }
 
+/* iPhone 6, 6s, 7, 8 */
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (-webkit-min-device-pixel-ratio : 2) {
+    .container {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        overflow-x: hidden;
+    }
+    
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/* iPhone 6+, 7+, 8+ */
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) 
+and (-webkit-min-device-pixel-ratio : 3) {
+    .container {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        overflow-x: hidden;
+    }
+    
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
 /*--------------------------------------------------------------
 # Global Page Titles & Breadcrumbs
 --------------------------------------------------------------*/
